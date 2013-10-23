@@ -1,0 +1,24 @@
+[user]
+	name = Dalton Huynh
+	email = dalton.huynh@livingsocial.com
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+[alias]
+  b = branch
+  ba = branch -a
+  ci = commit
+  co = checkout
+  cob = checkout -b
+  d = diff
+  df = !git diff | mate
+  dc = diff --cached
+  fp = format-patch
+  gr = log --graph
+  go = log --relative-date --graph --pretty=oneline --abbrev-commit
+  st = status
+[core]
+	quotepath = false
+[push]
+	default = simple
