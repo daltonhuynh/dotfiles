@@ -30,7 +30,7 @@ export PATH=$PATH:$GOPATH/bin
 
 # for GCC
 
-export ARCHFLAGS='-arch x86_64' export CC=/usr/bin/gcc-4.2
+# export ARCHFLAGS='-arch x86_64' export CC=/usr/bin/gcc-4.2
 
 export PGHOST=localhost
 
