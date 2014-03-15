@@ -1,4 +1,5 @@
 ---
 BUNDLE_PATH: .bundle
-BUNDLE_BUILD__NOKOGIRI: --with-xml2-dir=/usr --with-xslt-dir=/opt/local --with-iconv-dir=/opt/local
+BUNDLE_BUILD__NOKOGIRI: --with-xml2-include=/usr/local/opt/libxml2/include/libxml2
+  --with-xml2-lib=/usr/local/opt/libxml2/lib --with-xslt-dir=/usr/local/opt/libxslt
 BUNDLE_BUILD__PG: --with-pg-config=/Applications/Postgres.app/Contents/MacOS/bin/pg_config
