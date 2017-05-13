@@ -35,3 +35,8 @@ export PATH=$PATH:$GOPATH/bin
 export PGHOST=localhost
 
 # source ~/.git-completion.sh
+
+# Python
+eval "$(pyenv init -)"
+export PIPENV_SHELL_COMPAT=1
+export PIPENV_VENV_IN_PROJECT=1
