@@ -1,13 +1,15 @@
 {
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
   "folder_exclude_patterns":
   [
     ".svn",
     ".git",
     ".hg",
     "CVS",
-    ".bundle"
+    ".bundle",
+    "node_modules"
   ],
+  "font_size": 12,
   "ignored_packages":
   [
     "Vintage"
